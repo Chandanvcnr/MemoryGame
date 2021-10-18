@@ -22,3 +22,7 @@ A,B to H alphabets are shuffeled and finally 4*4=16  shuffeled cards will be dis
 Counting ot number of attempts and number of mateshed will be displayed
 Reset button to reshuffel the cards.
 
+![launch screen](/assets/Screenshot_1634590637.png?raw=true "starting screen")
+![on click](/assets/Screenshot_1634590648.png?raw=true "starting screen")
+![on matching](/assets/Screenshot_1634590671.png?raw=true "matching screen")
+![on matching](/assets/Screenshot_1634590688.png?raw=true "matching screen")
