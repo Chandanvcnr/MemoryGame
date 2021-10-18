@@ -20,13 +20,12 @@ const styles = StyleSheet.create({
 		flex: 2,
 		alignItems: 'center',
 		padding: 10,
-        flexDirection:'row',
-        justifyContent:'space-around'
-        //bottom:20,
+		flexDirection:'row',
+		justifyContent:'space-around'
 	},
 	score: {
 		fontSize: 20,
-        color:'white',
+        	color:'white',
 		fontWeight: 'bold'
 	}
 });
