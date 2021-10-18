@@ -21,12 +21,11 @@ export default class Card extends React.Component {
 		
 		return (
 			
-				<TouchableHighlight onPress={this.props.clickCard} activeOpacity={0.75} underlayColor={"blue"} style={styles.card}>
-                    <View style={{alignItems:'center'}}>
-                    <Text style={styles.text}>{name}</Text>
-                    </View>
-					
-				</TouchableHighlight>		
+			<TouchableHighlight onPress={this.props.clickCard} activeOpacity={0.75} underlayColor={"blue"} style={styles.card}>
+				    <View style={{alignItems:'center'}}>
+				    <Text style={styles.text}>{name}</Text>
+				    </View>	
+			</TouchableHighlight>		
 			
 		);
 	}
@@ -42,16 +41,12 @@ const styles = StyleSheet.create({
         padding:30,
         marginRight:10,
         borderRadius:20,
-        
-        //alignSelf:'center',
-        backgroundColor:'yellow'
-
-        
+        backgroundColor:'yellow'       
 	},
 	text: {
-		fontSize: 30,
-		fontWeight: 'bold',
-        alignItems:'center',
-        color:'black',
+	fontSize: 30,
+	fontWeight: 'bold',
+	alignItems:'center',
+	color:'black',
 	}
 });
