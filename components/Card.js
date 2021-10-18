@@ -40,7 +40,6 @@ const styles = StyleSheet.create({
 	card: {
         flexDirection:'column',
         padding:30,
-        //marginBottom:50,
         marginRight:10,
         borderRadius:20,
         
